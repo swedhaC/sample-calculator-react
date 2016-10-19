@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#form_container{
+			width: 360px;
+    		border: 1px solid #ccc;
+    		border-radius: 10px;
+    		-webkit-box-shadow: 1px 2px 5px 1px rgba(17, 34, 96, 0.66);
+            -moz-box-shadow: 1px 2px 5px 1px rgba(17, 34, 96, 0.66);
+    		box-shadow: 1px 2px 5px 1px rgba(17, 34, 96, 0.66);
+		}
+		#result_output{
+			margin: 5px;
+			padding: 10px;
+			margin-left: 15px;
+		}
+		#form_container > div{
+			display: inline-block;
+		}
+		#result_output input{
+			padding: 15px;
+    		width: 275px;
+    		border: none;
+    		border-radius: 2px;
+    		-webkit-box-shadow: 2px 2px 3px 0px rgba(17, 34, 96, 0.09);
+    		-moz-box-shadow: 2px 2px 3px 0px rgba(17, 34, 96, 0.09);
+    		box-shadow: 2px 2px 3px 0px rgba(17, 34, 96, 0.09);
+		}
+		#calc_buttons{
+			margin: 5px;
+    		padding: 10px 0px 10px 10px;
+    		float: left;
+    		width: 240px;
+		}
+		#oper_btns{
+			float: right;
+			margin: 5px;
+			padding: 10px 10px 10px 0px;
+    		width: 70px;
+		}
+		#calc_buttons .calc_number, #oper_btns .calc_number{
+			background-color: #112266;
+			color: white;
+			border-radius: 50%;
+			margin: 10px;
+			padding: 5px;
+			width: 60px;
+    		height: 60px;
+    		font-size: 15px;
+    		font-weight: 600;
+    		-webkit-box-shadow: 1px 2px 5px 1px rgba(17, 34, 96, 0.66);
+            -moz-box-shadow: 1px 2px 5px 1px rgba(17, 34, 96, 0.66);
+			box-shadow: 1px 2px 5px 1px rgba(17, 34, 96, 0.66);
+			border:none;
+			cursor: pointer;
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+<script src="../../build/react.js"></script>
+<script src="../../build/react-dom.js"></script>
+<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+<div id="form_container">
+	<div id="result_output"> hello</div>
+	<div id="calc_btn_holder"></div>
+</div>
+<!-- <div class="form_container">
+	<div id="result_output"></div>
+	<div id="calc_buttons"></div>
+</div>
+<div class="form_container">
+	<div id="result_output"></div>
+	<div id="calc_buttons"></div>
+</div>
+<div class="form_container">
+	<div id="result_output"></div>
+	<div id="calc_buttons"></div>
+</div>
+<div class="form_container">
+	<div id="result_output"></div>
+	<div id="calc_buttons"></div>
+</div>
+<div class="form_container">
+	<div id="result_output"></div>
+	<div id="calc_buttons"></div>
+</div> -->
+
+<script src="build/swe_example.js"></script>
+</body>
+</html>
